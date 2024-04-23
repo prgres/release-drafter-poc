@@ -3,4 +3,4 @@ name-template: "onprem_k8s_module_1-v$RESOLVED_VERSION"
 tag-template: "onprem_k8s_module_1-v$RESOLVED_VERSION"
 tag-prefix: onprem_k8s_module_1-v
 include-paths:
-  - "onprem_k8s_module_1-"
+  - "onprem_k8s_module_1"
