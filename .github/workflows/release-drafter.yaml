@@ -17,3 +17,5 @@ jobs:
       - uses: release-drafter/release-drafter@v6.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          config-name: release-drafter-onprem_k8s_module_1.yaml
