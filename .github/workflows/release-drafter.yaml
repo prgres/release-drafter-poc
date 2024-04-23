@@ -3,7 +3,6 @@ name: Release Drafter
 on:
   push:
     branches:
-      - master
       - main
   # pull_request event is required only for autolabeler
   pull_request:
@@ -28,3 +27,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           config-name: release-drafter-onprem_k8s_module_1.yaml
+          commitish: main
