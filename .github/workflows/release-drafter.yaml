@@ -28,3 +28,4 @@ jobs:
         with:
           config-name: release-drafter-onprem_k8s_module_1.yaml
           commitish: main
+          disable-releaser: ${{ github.ref != github.event.repository.default_branch }}
